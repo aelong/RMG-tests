@@ -1,0 +1,9 @@
+# Image files
+*.png
+
+# Cantera mechanism files
+*.cti
+
+# Eclipse project files
+.project
+.pydevproject
