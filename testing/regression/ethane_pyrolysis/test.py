@@ -4,7 +4,7 @@ from rmgpy.quantity import Quantity
 # Conditions
 reactorType = 'IdealGasReactor'
 molFracList=[{'CC': 0.05, '[Ar]': 0.95}]
-Plist=Quantity([278643.8],'Pa')
+Plist=Quantity([3],'atm')
 Tlist=Quantity([1500,1750,2000],'K')
 terminationTime = Quantity(5e-5,'s')
 
