@@ -1,12 +1,12 @@
 from rmgpy.tools.observablesRegression import ObservablesTestCase
-from rmgpy.quantity import Quantity
+#from rmgpy.quantity import Quantity
 
 # Conditions
 reactorType = 'IdealGasReactor'
 molFracList=[{'CC': 0.05, '[Ar]': 0.95}]
-Plist=Quantity([3],'atm')
-Tlist=Quantity([1500,1750,2000],'K')
-terminationTime = Quantity(5e-5,'s')
+Plist=([3],'atm')
+Tlist=([1500,1750,2000],'K')
+terminationTime = (5e-5,'s')
 
 # Create observables test case and compare the old and new models
 
